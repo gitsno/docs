@@ -14,6 +14,7 @@ _Simple_
 CASE input_expression
 WHEN when_expression THEN result_expression [ ...n ]
 ELSE else_result_expression
+END
 ```
 
 _Extended_
@@ -22,6 +23,7 @@ _Extended_
 CASE
 WHEN boolean_expression 
 THEN result_expression [ ...n ] ELSE else_result_expression
+END
 ```
 
 **input_expression**
